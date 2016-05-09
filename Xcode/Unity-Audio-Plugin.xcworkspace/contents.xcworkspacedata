@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SSR-Framework/SSR-Framework.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Juce-Audio/Juce-Audio.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Unity-Audio-Plugin/Unity-Audio-Plugin.xcodeproj">
+   </FileRef>
+</Workspace>

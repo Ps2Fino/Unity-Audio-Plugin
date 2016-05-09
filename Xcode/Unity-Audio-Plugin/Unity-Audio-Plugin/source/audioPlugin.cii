@@ -1,0 +1,76 @@
+//
+//  audioPlugin.c
+//  Unity-Audio-Plugin
+//
+//  Created by Daniel J. Finnegan on 17/02/2015.
+//  Copyright (c) 2015 Somethin Else Sound Directions Ltd. All rights reserved.
+//
+
+
+// Dependency and System headers
+#include <Juce-Audio/JuceHeader.h>
+
+// Bundle headers
+#include "Common.h"
+#include "jucePlayer.h"
+#include "soundbank.h"
+#include "spatializer.h"
+
+// Here's our system objects
+static int RES = 0; // This is the shared result variable to indicate a successful interface call; 1 for successful, anything else for unsuccessful
+std::unique_ptr<uap::JucePlayer> audioPlayer;
+std::unique_ptr<uap::SoundBank> soundBank;
+std::unique_ptr<uap::Spatializer<uap::SPATIALIZER_CALLBACK_IMPL> > spatializer;
+
+void initEnv()
+{
+    audioPlayer = std::make_unique<uap::JucePlayer>();
+    soundBank = std::make_unique<uap::SoundBank>();
+    spatializer = std::make_unique<uap::Spatializer<uap::SPATIALIZER_CALLBACK_IMPL> >();
+    
+    // Init these guys if necessary
+    spatializer->init();
+    RES = 1;
+}
+
+int checkStatus()
+{
+    return RES;
+}
+
+void destroyEnv()
+{
+    audioPlayer = NULL;
+    soundBank = NULL;
+    spatializer = NULL;
+    RES = 1;
+}
+
+void startJuce()
+{
+    if (audioPlayer->start())
+        RES = 1;
+    else
+        RES = 0;
+}
+
+void stopJuce()
+{
+    if (audioPlayer->stop())
+        RES = 1;
+    else
+        RES = 0;
+}
+
+void addSoundToRendererBank(const char *filename)
+{
+    int sourceID = spatializer->addSoundSource(filename);
+    //    soundBank->addSoundToBank(filename, sourceID);
+    soundBank->addAndActivate(filename, sourceID);
+}
+
+void removeSoundFromRendererBank(const char *filename)
+{
+    int sourceID = soundBank->removeSoundFromBank(filename);
+    spatializer->removeSoundSource(sourceID);
+}
