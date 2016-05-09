@@ -1,0 +1,10 @@
+Plugin-Build-Directory/Unity-Audio-Plugin.bundle
+Unity-Test-Project/.DS_Store
+Unity-Test-Project/Library
+Unity-Test-Project/Temp
+Unity-Test-Project/Assets/Plugins/Unity-Audio-Plugin.bundle
+Unity-Test-Project/*.csproj
+Unity-Test-Project/*.pidb
+Unity-Test-Project/*.unityproj
+Unity-Test-Project/*.sln
+Unity-Test-Project/*.userprefs
