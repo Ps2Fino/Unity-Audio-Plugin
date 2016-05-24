@@ -58,9 +58,7 @@ For LaTeX users:
 
 For everyone else:
 **Daniel J. Finnegan, Eamonn O'Neill, Michael J. Proulx**
-
 Compensating for Distance Compression in Audiovisual Virtual Environments Using Incongruence
-
 *Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems*
 
 Daniel J. Finnegan
