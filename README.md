@@ -36,8 +36,7 @@ A copy of the GPL is included in the repository.
 
 I'd greatly appreciate it if you could include the following referral or citation if you ever use this work:
 
-For LaTeX users:
-
+For LaTeX users:</br>
 @inproceedings{Finnegan:2016:CDC:2858036.2858065,
  author = {Finnegan, Daniel J. and O'Neill, Eamonn and Proulx, Michael J.},
  title = {Compensating for Distance Compression in Audiovisual Virtual Environments Using Incongruence},
@@ -56,7 +55,7 @@ For LaTeX users:
  keywords = {binaural audio, distance perception, head mounted display, incongruent display, spatial audio, virtual environment},
 }
 
-For everyone else:
+For everyone else:</br>
 **Daniel J. Finnegan, Eamonn O'Neill, Michael J. Proulx**</br>
 Compensating for Distance Compression in Audiovisual Virtual Environments Using Incongruence</br>
 *Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems*
