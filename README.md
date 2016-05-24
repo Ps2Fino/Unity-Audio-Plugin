@@ -34,5 +34,31 @@ the pthreads for windows port yet)
 This plugin is licensed for Open Source distribution using the GNU GPL license.
 A copy of the GPL is included in the repository.
 
-@author Daniel J. Finnegan
-@date April 2015
+I'd greatly appreciate it if you could include the following referral or citation if you ever use this work:
+
+For LaTeX users:
+@inproceedings{Finnegan:2016:CDC:2858036.2858065,
+ author = {Finnegan, Daniel J. and O'Neill, Eamonn and Proulx, Michael J.},
+ title = {Compensating for Distance Compression in Audiovisual Virtual Environments Using Incongruence},
+ booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI '16},
+ year = {2016},
+ isbn = {978-1-4503-3362-7},
+ location = {Santa Clara, California, USA},
+ pages = {200--212},
+ numpages = {13},
+ url = {http://doi.acm.org/10.1145/2858036.2858065},
+ doi = {10.1145/2858036.2858065},
+ acmid = {2858065},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {binaural audio, distance perception, head mounted display, incongruent display, spatial audio, virtual environment},
+}
+
+For everyone else:
+**Daniel J. Finnegan, Eamonn O'Neill, Michael J. Proulx**
+Compensating for Distance Compression in Audiovisual Virtual Environments Using Incongruence
+*Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems*
+
+Daniel J. Finnegan
+April 2015
