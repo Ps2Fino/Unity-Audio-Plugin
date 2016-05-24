@@ -37,6 +37,7 @@ A copy of the GPL is included in the repository.
 I'd greatly appreciate it if you could include the following referral or citation if you ever use this work:
 
 For LaTeX users:
+
 @inproceedings{Finnegan:2016:CDC:2858036.2858065,
  author = {Finnegan, Daniel J. and O'Neill, Eamonn and Proulx, Michael J.},
  title = {Compensating for Distance Compression in Audiovisual Virtual Environments Using Incongruence},
@@ -57,7 +58,9 @@ For LaTeX users:
 
 For everyone else:
 **Daniel J. Finnegan, Eamonn O'Neill, Michael J. Proulx**
+
 Compensating for Distance Compression in Audiovisual Virtual Environments Using Incongruence
+
 *Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems*
 
 Daniel J. Finnegan
